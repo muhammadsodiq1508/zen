@@ -1,0 +1,50 @@
+.ease {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 21px 121px;
+}
+
+.ease-img img {
+  width: 100%;
+}
+
+.ease-text{
+    margin-left: 70px;
+}
+.ease-text h1 {
+  font-family: Nunito;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+}
+
+.ease-text .p10 {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  margin-top: 30px;
+}
+
+.ease-text .p11 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.92px;
+    margin-top: 30px;
+    margin-top: 30px;
+  }
+
+  .ease-img1{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  @media only screen and (max-width: 900px){
+    .ease{
+        display: block;
+    }
+}
+

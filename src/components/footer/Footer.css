@@ -1,0 +1,45 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 47px 119px;
+}
+
+.f1 ul, 
+.f2 ul, 
+.f3 ul, 
+.f4 ul, 
+.f5 img, 
+.f6 ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.f1 ul li a, 
+.f2 ul  li a, 
+.f3 ul  li a, 
+.f4 ul  li a, 
+.f6 ul  li a
+{
+    text-decoration: none;
+    color: #222;
+}
+
+.copiright{
+    display: flex;
+    padding: 103px 119px;
+}
+
+.copiright img{
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 900px){
+    .footer{
+        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
+        gap: 100px;
+    }
+}

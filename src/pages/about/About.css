@@ -1,0 +1,33 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 120px 75px;
+    font-family: Nunito;
+    align-items: center;
+}
+
+.about-text{
+    margin-left: 80px;
+}
+
+.about-text h1{
+    font-size: 36px;
+}
+
+.about-text .p1{
+    margin-top: 30px;
+font-size: 18px;
+font-weight: 400;
+line-height: 25.92px;
+text-align: left;
+}
+
+.about-text .p2{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 900px){
+    .about{
+        display: block;
+    }
+}
